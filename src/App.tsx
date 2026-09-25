@@ -48,9 +48,9 @@ export default function App() {
             </div>
             <div>
               <span className="font-bold text-base tracking-tight text-white flex items-center gap-2">
-                APEX ROOFING <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-950 text-amber-400 border border-amber-800">DRONE TAKEOFF OS</span>
+                APEX ROOFING <span className="text-xs font-semibold tracking-wider font-mono px-2 py-0.5 rounded bg-amber-950 text-amber-400 border border-amber-800">DRONE TAKEOFF OS</span>
               </span>
-              <p className="text-[11px] text-zinc-400 font-mono">Pitch Multipliers, Aerial Photogrammetry &amp; Claims</p>
+              <p className="text-xs font-semibold text-zinc-400 font-mono">Pitch Multipliers, Aerial Photogrammetry &amp; Claims</p>
             </div>
           </div>
 
@@ -87,15 +87,15 @@ export default function App() {
             <div className="grid grid-cols-3 gap-4 pt-4 border-t border-zinc-850">
               <div>
                 <p className="text-2xl font-bold font-mono text-white">99.4%</p>
-                <p className="text-xs text-zinc-500 font-mono">Takeoff Accuracy</p>
+                <p className="text-xs text-zinc-300 font-mono">Takeoff Accuracy</p>
               </div>
               <div>
                 <p className="text-2xl font-bold font-mono text-amber-400">4 Hours</p>
-                <p className="text-xs text-zinc-500 font-mono">Drone Report Turnaround</p>
+                <p className="text-xs text-zinc-300 font-mono">Drone Report Turnaround</p>
               </div>
               <div>
                 <p className="text-2xl font-bold font-mono text-white">$35k+</p>
-                <p className="text-xs text-zinc-500 font-mono">Average Contract Ticket</p>
+                <p className="text-xs text-zinc-300 font-mono">Average Contract Ticket</p>
               </div>
             </div>
           </div>
@@ -103,9 +103,9 @@ export default function App() {
           {/* Interactive Calculator Engine */}
           <div id="calculator" className="lg:col-span-6 bg-[#0c0c0e] border border-zinc-800 rounded-2xl p-6 shadow-2xl space-y-6">
             <div className="space-y-1">
-              <span className="text-[10px] font-mono uppercase text-amber-400 font-bold tracking-wider">MATHEMATICAL TAKEOFF SIMULATOR</span>
+              <span className="text-xs font-semibold tracking-wider font-mono uppercase text-amber-400 font-bold tracking-wider">MATHEMATICAL TAKEOFF SIMULATOR</span>
               <h3 className="text-xl font-bold text-white">Interactive Roof Calculator</h3>
-              <p className="text-xs text-zinc-400">Adjust square footage and slope pitch to see instant material breakdowns.</p>
+              <p className="text-base text-zinc-200 leading-relaxed">Adjust square footage and slope pitch to see instant material breakdowns.</p>
             </div>
 
             <div className="space-y-5">
@@ -128,7 +128,7 @@ export default function App() {
 
               {/* Pitch Selector */}
               <div className="space-y-2">
-                <label className="text-xs font-mono text-zinc-400 block">Roof Slope &amp; Pitch Multiplier</label>
+                <label className="text-sm font-semibold font-mono text-zinc-400 block">Roof Slope &amp; Pitch Multiplier</label>
                 <div className="grid grid-cols-3 gap-2">
                   <button
                     type="button"
@@ -162,7 +162,7 @@ export default function App() {
 
               {/* Material Package */}
               <div className="space-y-2">
-                <label className="text-xs font-mono text-zinc-400 block">Architectural Material Spec</label>
+                <label className="text-sm font-semibold font-mono text-zinc-400 block">Architectural Material Spec</label>
                 <div className="grid grid-cols-3 gap-2">
                   <button
                     type="button"
@@ -219,7 +219,7 @@ export default function App() {
                 <div className="p-3.5 rounded-xl bg-emerald-950/40 border border-emerald-800 text-center space-y-1">
                   <CheckCircle2 className="w-5 h-5 text-emerald-400 mx-auto" />
                   <p className="text-xs font-bold text-white">Aerial Scan Queued</p>
-                  <p className="text-[11px] text-zinc-400 font-mono">Our FAA Part 107 pilot will fly your roof within 24 hours.</p>
+                  <p className="text-xs font-semibold text-zinc-400 font-mono">Our FAA Part 107 pilot will fly your roof within 24 hours.</p>
                 </div>
               )}
             </div>
@@ -233,7 +233,7 @@ export default function App() {
               <Camera className="w-5 h-5" />
             </div>
             <h4 className="text-lg font-bold text-white">FAA Part 107 Drone Workflow</h4>
-            <p className="text-xs text-zinc-400 leading-relaxed">
+            <p className="text-base text-zinc-200 leading-relaxed leading-relaxed">
               Automated high-res orthomosaic imagery captures every ridge, hip, valley, and penetration for zero-error estimating.
             </p>
           </div>
@@ -243,7 +243,7 @@ export default function App() {
               <ShieldCheck className="w-5 h-5" />
             </div>
             <h4 className="text-lg font-bold text-white">Insurance Supplement Engine</h4>
-            <p className="text-xs text-zinc-400 leading-relaxed">
+            <p className="text-base text-zinc-200 leading-relaxed leading-relaxed">
               Generates line-item export reports compliant with State Farm, Allstate, and Travelers insurance adjusters.
             </p>
           </div>
@@ -253,7 +253,7 @@ export default function App() {
               <DollarSign className="w-5 h-5" />
             </div>
             <h4 className="text-lg font-bold text-white">Supabase PostgreSQL Wiring</h4>
-            <p className="text-xs text-zinc-400 leading-relaxed">
+            <p className="text-base text-zinc-200 leading-relaxed leading-relaxed">
               Complete database tables with Row Level Security for square footage calculations, drone flight logs, and customer contracts.
             </p>
           </div>
@@ -262,7 +262,7 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-zinc-800/80 bg-[#09090b] py-8 text-center text-xs text-zinc-500 font-mono">
+      <footer className="border-t border-zinc-800/80 bg-[#09090b] py-8 text-center text-xs text-zinc-300 font-mono">
         <p>© 2026 APEX ROOFING ESTIMATOR OS &bull; Turnkey Digital Operating System &bull; Ghost Factory™ Flagship #57</p>
       </footer>
 
